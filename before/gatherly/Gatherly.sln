@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gatherly.Domain", "src\Gath
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gatherly.Application", "src\Gatherly.Application\Gatherly.Application.csproj", "{1C2DF747-1CF6-4B80-9309-AF234696D726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gatherly.App", "src\Gatherly.App\Gatherly.App.csproj", "{93F72813-30F0-4BEA-BC98-34B467781792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gatherly.App", "src\Gatherly.App\Gatherly.App.csproj", "{93F72813-30F0-4BEA-BC98-34B467781792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gatherly.Persistence", "src\Gatherly.Persistence\Gatherly.Persistence.csproj", "{97C8D7A3-8D01-47BF-A680-5292C8FDCDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gatherly.Persistence", "src\Gatherly.Persistence\Gatherly.Persistence.csproj", "{97C8D7A3-8D01-47BF-A680-5292C8FDCDCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gatherly.Infrastructure", "src\Gatherly.Infrastructure\Gatherly.Infrastructure.csproj", "{6237D882-011D-4AF9-A2A3-43DB19CC5B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gatherly.Infrastructure", "src\Gatherly.Infrastructure\Gatherly.Infrastructure.csproj", "{6237D882-011D-4AF9-A2A3-43DB19CC5B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gatherly.Presentation", "src\Gatherly.Presentation\Gatherly.Presentation.csproj", "{DFD59C63-9D38-4275-80CE-31D4289F38E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gatherly.Presentation", "src\Gatherly.Presentation\Gatherly.Presentation.csproj", "{DFD59C63-9D38-4275-80CE-31D4289F38E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gatherly.BlazorServer", "Gatherly.BlazorServer\Gatherly.BlazorServer.csproj", "{3C7396A6-9E3C-42ED-B6D1-881650D8B324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{DFD59C63-9D38-4275-80CE-31D4289F38E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD59C63-9D38-4275-80CE-31D4289F38E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD59C63-9D38-4275-80CE-31D4289F38E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7396A6-9E3C-42ED-B6D1-881650D8B324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7396A6-9E3C-42ED-B6D1-881650D8B324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7396A6-9E3C-42ED-B6D1-881650D8B324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7396A6-9E3C-42ED-B6D1-881650D8B324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{97C8D7A3-8D01-47BF-A680-5292C8FDCDCA} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
 		{6237D882-011D-4AF9-A2A3-43DB19CC5B59} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
 		{DFD59C63-9D38-4275-80CE-31D4289F38E3} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
+		{3C7396A6-9E3C-42ED-B6D1-881650D8B324} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8D46A31-FFE1-4C92-B344-FADBAD683E6E}
